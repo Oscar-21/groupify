@@ -1,0 +1,49 @@
+= Band Alert API Guide
+created by Austin Conder;
+:sectlinks:
+
+[searchforartist]
+= Search for Artist
+
+include::{snippets}/artistSearch/http-request.adoc[]
+
+include::{snippets}/artistSearch/request-parameters.adoc[]
+
+.Response
+
+include::{snippets}/artistSearch/http-response.adoc[]
+
+[searchforartistnextpage]
+= Search for Artist Next Page
+
+.Request
+
+include::{snippets}/artistSearchNextPage/http-request.adoc[]
+
+include::{snippets}/artistSearchNextPage/request-parameters.adoc[]
+
+.Response
+
+include::{snippets}/artistSearchNextPage/http-response.adoc[]
+
+[upcomingartistsevents]
+= Upcoming Artists Events
+
+.Request
+include::{snippets}/artistUpcomingEvents/http-request.adoc[]
+
+include::{snippets}/artistUpcomingEvents/request-parameters.adoc[]
+
+.Response
+include::{snippets}/artistUpcomingEvents/http-response.adoc[]
+
+[addartist]
+= Add Artist
+
+.Request
+include::{snippets}/addArtist/http-request.adoc[]
+
+include::{snippets}/addArtist/request-parameters.adoc[]
+
+.Response
+include::{snippets}/addArtist/http-response.adoc[]
